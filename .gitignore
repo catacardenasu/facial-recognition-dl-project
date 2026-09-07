@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset images (regenerate via download_dataset.py + prepare_dataset.py)
+dataset/
+examples/
+
+# Debug/output files
+output.txt
+*.avi
+
+# Kaggle credentials (never commit these)
+kaggle.json
+access_token
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
